@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Dancing Script", sans-serif;
+    outline: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(./img/background.jpeg);
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    color: white;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 50px;
+    color: white;
+}
+
+p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+.inicio {
+    margin-top: 10px;
+    flex-direction: column;
+    border: 1px solid white;
+    width: auto;
+    padding: 20px;
+}
+
+select {
+    margin-top: 30px;
+    width: 250px;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.momentos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    margin-top: 30px;
+    width: 500px;
+    height: 420px;
+    border: 5px solid white;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+    border: 4px solid blue;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+.descriçao {
+    padding: 5px;
+    color: blue;
+    background-color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    border: 5px solid blue;
+}
+
+@media screen and (max-width: 420px) {
+
+    h1 {
+        text-align: center;
+        font-weight: bolder;
+        font-size: 20px;
+        color: white;
+    }
+
+    h2 {
+        margin-top: 20px;
+        font-size: 25px;
+        color: white;
+    }
+
+    img {
+        margin-top: 15px;
+        width: 250px;
+        height: 210px;
+        border: 3px solid white;
+    }
+
+    p {
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 10px;
+        text-align: center;
+        color: white;
+    }
+
+    .inicio {
+        margin-top: 130px;
+        flex-direction: column;
+        border: 1px solid white;
+        width: auto;
+        padding: 10px;
+    }
+
+    select {
+        margin-top: 15px;
+        width: 250px;
+        font-size: 15px;
+        font-weight: 700;
+        padding: 10px;
+    }
+
+    button {
+        margin-top: 15px;
+        padding: 10px;
+        color: black;
+        font-size: 25px;
+        cursor: pointer;
+        border: 4px solid blue;
+    }
+
+    .descriçao {
+        padding: 5px;
+        color: blue;
+        background-color: white;
+        font-weight: bolder;
+        font-size: 20px;
+        border: 5px solid blue;
+    }
+}
