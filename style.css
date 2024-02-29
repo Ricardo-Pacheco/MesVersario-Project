@@ -123,7 +123,7 @@ button:active {
     }
 
     .inicio {
-        margin-top: 130px;
+        margin-top: 80px;
         flex-direction: column;
         border: 1px solid white;
         width: auto;
